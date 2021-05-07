@@ -1,0 +1,7 @@
+{
+  "name": "MobilUygulama",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

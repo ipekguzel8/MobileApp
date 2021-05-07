@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Kullanıcı Listesi</h2>
+  <button (click)="yenile()">Yeniden Yükle</button> 
+  <p *ngFor="let x of users; let i =index">
+   <button (click)="presentActionSheet(i)">Islemler</button> {{x.name}} - {{x.email}}
+  </p>
+</ion-content>
